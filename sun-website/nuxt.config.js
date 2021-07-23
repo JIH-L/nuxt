@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'sun-website',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'zh-TW'
     },
     meta: [
       { charset: 'utf-8' },
@@ -39,5 +39,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  target: 'static'
 }
